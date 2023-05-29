@@ -1,1 +1,4 @@
-# m5
+master側であるm5stackCore2と、slave側であるm5StickCplusのブルートゥース通信に関するコード。
+
+master側でロータリーエンコーダを回すと、10000から100ずつ減っていき、m5stackCore2に表示される。
+ブルートゥース通信により、減った分がslave側に反映され、100ずつ増えていき、m5StickCplusの画面に表示される。
