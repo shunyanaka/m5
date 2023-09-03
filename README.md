@@ -1,5 +1,7 @@
+# Arduinoのm5StackCore2とM5StickCplusを通信させるコード
+
 master側であるm5stackCore2と、slave側であるm5StickCplusのブルートゥース通信に関するコード。
 
-master側でロータリーエンコーダを回すと、10000から100ずつ減っていき、その数値がm5stackCore2に表示される。
+m5stackCore2のロータリーエンコーダを回すと、10000から100ずつ減っていき、その数値がm5stackCore2のディスプレイ上に表示される。
 
 ブルートゥース通信により減った分がslave側に反映され、100ずつ増えていき、m5StickCplusの画面に表示される。
